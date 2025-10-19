@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivekanadha Nursery & Primary School</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth; /* 🌿 enables smooth scrolling */
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f5ff;
+      color: #333;
+    }
+
+    header {
+      background: url('https://images.pexels.com/photos/5905452/pexels-photo-5905452.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 40px;
+      color: white;
+      position: relative;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(78, 0, 131, 0.6);
+    }
+
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+
+    nav {
+      background: #7b2cbf;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+    }
+
+    nav .logo {
+      font-size: 1.4rem;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .hero-text h1 {
+      font-size: 2.8rem;
+      max-width: 600px;
+    }
+
+    .hero-text p {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      max-width: 500px;
+    }
+
+    .explore-btn {
+      margin-top: 25px;
+      background-color: #00c48c;
+      color: white;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      position: relative;
+      z-index: 1;
+    }
+
+    .explore-btn:hover {
+      background-color: #00a97f;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 60px 20px;
+      flex-wrap: wrap;
+    }
+
+    .feature-box {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      text-align: center;
+      padding: 30px 20px;
+      transition: transform 0.3s;
+    }
+
+    .feature-box:hover {
+      transform: translateY(-10px);
+    }
+
+    .feature-box h3 {
+      margin-top: 15px;
+      color: #5a189a;
+    }
+
+    .feature-box p {
+      font-size: 0.95rem;
+      margin-top: 10px;
+    }
+
+    .green { background-color: #d8f3dc; }
+    .orange { background-color: #fde2e4; }
+    .blue { background-color: #caf0f8; }
+
+    footer {
+      background: #7b2cbf;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Vivekanandha Nursery & Primary School</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <div class="hero-text">
+      <h1>Welcome to the World of Fun Mameyyy 🧒✨</h1>
+      <p>Learning is joyful at Vivekanandha Nursery & Primary School — a safe and happy place to grow.</p>
+      <!-- 🪄 This button scrolls smoothly to the features section -->
+      <a href="#features"><button class="explore-btn">Explore Now</button></a>
+    </div>
+  </header>
+
+  <!-- Feature Section -->
+  <section id="features" class="features">
+    <div class="feature-box green">
+      <h3>📖 Learn</h3>
+      <p>Play-based learning to build strong knowledge and creativity.</p>
+    </div>
+    <div class="feature-box orange">
+      <h3>🎨 Play</h3>
+      <p>Colorful activities and fun games that make every child smile.</p>
+    </div>
+    <div class="feature-box blue">
+  <h3>🧠 Smart Learning</h3>
+  <p>Use of simple smart tools or activities to build curiosity and creativity.</p>
+</div>
+
+  </section>
+
+  <footer>
+    © 2025 Vivekanadha Nursery & Primary School | All Rights Reserved 💜
+  </footer>
+
+</body>
+</html>
